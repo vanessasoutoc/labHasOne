@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @person.name %>
+</p>
+
+<p>
+  <strong>Cpf:</strong>
+  <%= @person.cpf %>
+</p>
+<p>
+    <strong>Id relacionamento:</strong>
+    <%= @person.address.person_id %>
+</p>
+<p>
+    <strong>Rua:</strong>
+    <%= @person.address.street %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>
