@@ -7,3 +7,14 @@ Rails 4.1.8
 Ruby 2.1.4
 
 Relacionamento one-to-one entre person e address.
+ -------------------------------------------------------------------------------------------
+
+Laboratory relationship one-to-one.
+
+using:
+
+Rails 4.1.8
+
+Ruby 2.1.4
+
+Relationship one-to-one between person and address.
